@@ -1,0 +1,25 @@
+{
+    "require": {
+        "dg/rss-php": "^1.5",
+        "guzzlehttp/guzzle": "^7.3",
+        "mikecao/flight": "^1.3",
+        "doctrine/cache": "^1.10"
+    },
+    "name": "daan/rss-to-pocket",
+    "description": "Fetch rss from your favorite website and push it to pocket",
+    "authors": [
+        {
+            "name": "Daan Seegers",
+            "email": "d.seegers.mail@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dseegers\\RrsToPocket\\": "src",
+            "Dseegers\\Config\\": "config",
+            "Dseegers\\Agent\\": "agent",
+            "Dseegers\\ValueObjects\\": "valueObjects",
+            "Dseegers\\Route\\": "route"
+        }
+    }
+}
